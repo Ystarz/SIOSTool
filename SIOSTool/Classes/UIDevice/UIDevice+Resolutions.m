@@ -8,7 +8,9 @@
 
 #import "UIDevice+Resolutions.h"
 
+
 @implementation UIDevice (Resolutions)
+
 
 /******************************************************************************
  函数名称 : + (UIDeviceResolution) currentResolution

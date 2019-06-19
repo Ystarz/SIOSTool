@@ -6,8 +6,9 @@
 //  Copyright © 2019 SSS. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 //System
+
 #import "SSystemDefine.h"
 #import "SDeviceInfo.h"
 #import "SDeviceType.h"
@@ -20,8 +21,8 @@
 #import "UIImage+Addtion.h"
 
 //UIDevice
-#import "UIDevice+Orientation.h"
-#import "UIDevice+Resolution.h"
+#import "../UIDevice/UIDevice+Orientation.h"
+#import "../UIDevice/UIDevice+Resolution.h"
 
 //UIView
 #import "UIImageView+Cache.h"
