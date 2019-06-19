@@ -7,7 +7,7 @@
 
 #import "UIDevice+Orientation.h"
 
-@implementation UIDevice (Orientation)
+@implementation UIDevice(Orientation)
 
 + (void)switchNewOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

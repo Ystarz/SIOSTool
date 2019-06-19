@@ -21,8 +21,8 @@
 #import "UIImage+Addtion.h"
 
 //UIDevice
-#import "../UIDevice/UIDevice+Orientation.h"
-#import "../UIDevice/UIDevice+Resolution.h"
+#import "UIDevice/UIDevice+Orientation.h"
+#import "UIDevice/UIDevice+Resolutions.h"
 
 //UIView
 #import "UIImageView+Cache.h"
