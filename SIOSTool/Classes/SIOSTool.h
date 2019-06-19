@@ -20,9 +20,7 @@
 #import "SUIDefine.h"
 #import "UIImage+Addtion.h"
 
-//UIDevice
-#import "UIDevice/UIDevice+Orientation.h"
-#import "UIDevice/UIDevice+Resolutions.h"
+
 
 //UIView
 #import "UIImageView+Cache.h"
@@ -32,6 +30,9 @@
 //UIViewController
 #import "UIViewController+SExtension.h"
 
+//UIDevice
+#import "UIDevice+Orientation.h"
+#import "UIDevice+Resolutions.h"
 
 //! Project version number for SIOSTool.
 FOUNDATION_EXPORT double SIOSToolVersionNumber;
