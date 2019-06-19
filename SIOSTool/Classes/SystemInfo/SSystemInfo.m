@@ -30,7 +30,7 @@
 //
 //    return strUUID;
 //}
-
+//
 +(NSString *)getUQID
 {
     return [SDeviceInfo getUQID];
