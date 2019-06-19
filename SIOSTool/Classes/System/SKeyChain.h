@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SYDKeyChain : NSObject
+@interface SKeyChain : NSObject
 
 + (void)saveObject:(id)object forKey:(NSString *)key;
 + (id)readObjectForKey:(NSString *)key;

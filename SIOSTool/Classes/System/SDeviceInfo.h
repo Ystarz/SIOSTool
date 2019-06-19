@@ -1,5 +1,5 @@
 //
-//  SSystemInfo.h
+//  SDeviceInfo.h
 //  HDIM
 //
 //  Created by SSS on 2019/4/11.
@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SDeviceTypeDefine.h"
+#import "SDeviceType.h"
+#import "SDeviceUIInfo.h"
 
 //#define Funcname(objc,func)   @(((objc.func),#func))
 //获取app的相关信息
@@ -21,8 +24,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SSystemInfo : NSObject
-//+(NSString *)getUUID;
+
+
+@interface SDeviceInfo : NSObject
+
 +(NSString *)getUQID;
 +(NSString *)getPhoneName;
 +(NSString *)getSystemName;
@@ -30,8 +35,28 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(NSString *)getPhoneVersion API_AVAILABLE(ios(4.0), watchos(2.0), tvos(9.0));
 +(NSString *)getPhoneModel API_AVAILABLE( ios(4.0), watchos(2.0), tvos(9.0));
-+(NSString *)getDeviceVersion API_AVAILABLE( ios(4.0), watchos(2.0), tvos(9.0));
 
+///**
+// 获取设备名称
+//
+// @return <#return value description#>
+// */
+//+(NSString *)getDeviceVersion API_AVAILABLE( ios(4.0), watchos(2.0), tvos(9.0));
+
+/**
+ 获取设备类型信息
+
+ @return <#return value description#>
+ */
++(SDeviceType*) getDeviceType;
+
++(SDeviceUIInfo*) getUIInfo;
+///**
+// 获取设备枚举名
+//
+// @return <#return value description#>
+// */
+//+(SDeviceModel) getDeviceModel;
 
 @end
 

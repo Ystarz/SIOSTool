@@ -6,14 +6,14 @@
 
 //
 
-#import "SDeviceInfo.h"
-#import "SYDKeyChain.h"
+#import "SDeviceID.h"
+#import "SKeyChain.h"
 #import <AdSupport/ASIdentifierManager.h>
 #import <UIKit/UIKit.h>
 
 #define UQID_KEY @"com.device.uqid"
 
-@implementation SDeviceInfo
+@implementation SDeviceID
 
 //获取IDFA
 + (NSString *)getIDFA
@@ -59,7 +59,7 @@
     
     if (!uqid) {
         //从keychain取
-        uqid = (NSString *)[SYDKeyChain readObjectForKey:UQID_KEY];
+        uqid = (NSString *)[SKeyChain readObjectForKey:UQID_KEY];
         
         if (uqid) {
             [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
@@ -76,7 +76,7 @@
             if (uqid) {
                 [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
                 [[NSUserDefaults standardUserDefaults] synchronize];
-                [SYDKeyChain saveObject:uqid forKey:UQID_KEY];
+                [SKeyChain saveObject:uqid forKey:UQID_KEY];
                 
             } else {
                 
@@ -96,7 +96,7 @@
                 [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
                 [[NSUserDefaults standardUserDefaults] synchronize];
                 
-                [SYDKeyChain saveObject:uqid forKey:UQID_KEY];
+                [SKeyChain saveObject:uqid forKey:UQID_KEY];
                 
                 UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
                 NSData *data = [uqid dataUsingEncoding:NSUTF8StringEncoding];
@@ -113,7 +113,7 @@
     
     if (!uqid) {
         //从keychain取
-        uqid = (NSString *)[SYDKeyChain readObjectForKey:UQID_KEY];
+        uqid = (NSString *)[SKeyChain readObjectForKey:UQID_KEY];
         
         if (uqid) {
             [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
@@ -130,7 +130,7 @@
             if (uqid) {
                 [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
                 [[NSUserDefaults standardUserDefaults] synchronize];
-                [SYDKeyChain saveObject:uqid forKey:UQID_KEY];
+                [SKeyChain saveObject:uqid forKey:UQID_KEY];
                 
             } else {
                 
@@ -150,7 +150,7 @@
                 [[NSUserDefaults standardUserDefaults] setObject:uqid forKey:UQID_KEY];
                 [[NSUserDefaults standardUserDefaults] synchronize];
                 
-                [SYDKeyChain saveObject:uqid forKey:UQID_KEY];
+                [SKeyChain saveObject:uqid forKey:UQID_KEY];
                 
                 UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
                 NSData *data = [uqid dataUsingEncoding:NSUTF8StringEncoding];

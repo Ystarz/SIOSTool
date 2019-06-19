@@ -6,11 +6,11 @@
 //  Copyright © 2016年 侯亚迪 All rights reserved.
 //
 
-#import "SYDKeyChain.h"
+#import "SKeyChain.h"
 
 #define BUNDLE_ID [[NSBundle mainBundle] bundleIdentifier]
 
-@implementation SYDKeyChain
+@implementation SKeyChain
 
 + (void)saveObject:(id)object forKey:(NSString *)key {
     NSMutableDictionary *mDic = [NSMutableDictionary dictionary];

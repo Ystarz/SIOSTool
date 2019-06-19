@@ -10,6 +10,15 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage(Addtion)
+//颜色转换成图片
++ (UIImage *)imageFromColor:(UIColor *)color;
+
+//改变图片的颜色
+-(UIImage *)imageWithColor:(UIColor *)color;
+
+//获取本地视频的第一帧 返回图片
++(UIImage *)getImage:(NSString *)videoURL;
+
 - (UIImage*)imageCompressWithScale:(float)scale;
 - (UIImage *)scaleImageToScale:(float)scaleSize;
 @end
