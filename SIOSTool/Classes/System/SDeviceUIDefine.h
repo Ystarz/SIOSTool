@@ -10,12 +10,14 @@
 #define SDeviceUIDefine_h
 
 //安全区域顶部
-#define SafeAreaTop_Height  [IMSDKSSDeviceDefault shareCKDeviceDefault].safeAreaTopHeight
+#define SafeAreaTop_Height [SDeviceUIInfo sharedInstance].safeAreaTopHeight //[IMSDKSSDeviceDefault shareCKDeviceDefault].safeAreaTopHeight
 //安全区域底部（iPhone X有）
-#define SafeAreaBottom_Height  [IMSDKSSDeviceDefault shareCKDeviceDefault].safeAreaBottomHeight
+#define SafeAreaBottom_Height [SDeviceUIInfo sharedInstance].safeAreaBottomHeight
+//[IMSDKSSDeviceDefault shareCKDeviceDefault].safeAreaBottomHeight
 
 //状态栏
-#define StatuBar_Height  [IMSDKSSDeviceDefault shareCKDeviceDefault].statuBarHeight
+#define StatuBar_Height [SDeviceUIInfo sharedInstance].statuBarHeight
+//[IMSDKSSDeviceDefault shareCKDeviceDefault].statuBarHeight
 
 
 #endif /* SDeviceUIDefine_h */
