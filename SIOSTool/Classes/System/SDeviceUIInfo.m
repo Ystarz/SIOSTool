@@ -29,7 +29,7 @@
 {
     self = [super init];
     if (self) {
-        SDeviceUIInfo*device=[SDeviceUIInfo sharedInstance];
+        SDeviceUIInfo*device=self;//[SDeviceUIInfo sharedInstance];
         SDeviceType* deviceType= [SDeviceInfo getDeviceType];
         device.statuBarHeight= 20;
         device.navBarHeight = 44;
