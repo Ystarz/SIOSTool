@@ -41,7 +41,11 @@
         //根据不同的设备适配尺寸 iPhone X的尺寸是375*812
         if(deviceType.deviceSeries==SDeviceiPhone){
             if(deviceType.deviceModel==Simulator){
-                if([[UIScreen mainScreen] bounds].size.height==812){
+                float h=[[UIScreen mainScreen] bounds].size.height;
+                float w=[[UIScreen mainScreen] bounds].size.width;
+                NSLog(@"height %f",h);
+                NSLog(@"width %f",w);
+                if(h==812||h==896){
                     device.statuBarHeight = 44;
                     device.navBarHeight = 44;
                     device.safeAreaTopHeight = 88;
@@ -56,7 +60,7 @@
                 }
             }
             else{
-                if(deviceType.deviceModel == iPhoneX){
+                if(deviceType.deviceModel == iPhoneX||deviceType.deviceModel==iPhoneXR||deviceType.deviceModel==iPhoneXsMAX||deviceType.deviceModel==iPhoneXs||deviceType.deviceModel==iPhoneUnknown){
                     device.statuBarHeight = 44;
                     device.navBarHeight = 44;
                     device.safeAreaTopHeight = 88;

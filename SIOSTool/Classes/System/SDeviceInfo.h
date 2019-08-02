@@ -49,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return <#return value description#>
  */
 +(SDeviceType*) getDeviceType;
++(NSString*) getDeviceOriginalName;
 
 +(SDeviceUIInfo*) getUIInfo;
 ///**

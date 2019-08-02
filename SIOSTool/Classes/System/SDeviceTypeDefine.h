@@ -94,6 +94,7 @@ typedef NS_ENUM(NSInteger,SDeviceModel) {
     iPodTouch3G,
     iPodTouch4G,
     iPodTouch5Gen,
+    iPodUnknown,
     
     iPhone3G,
     iPhone3GS,
@@ -119,6 +120,10 @@ typedef NS_ENUM(NSInteger,SDeviceModel) {
     iPhone8,
     iPhone8Plus,
     iPhoneX,
+    iPhoneXs,
+    iPhoneXsMAX,
+    iPhoneXR,
+    iPhoneUnknown,
     
     iPhone7CGR,
     iPhone7PlusGC,
@@ -153,6 +158,7 @@ typedef NS_ENUM(NSInteger,SDeviceModel) {
     iPadAir2,
     iPadPro9_7,
     iPadPro12_9,
+    iPadUnknown,
     
     UnknownDeviceModel
 };

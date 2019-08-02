@@ -227,19 +227,19 @@
 		186E647522D35DFF00072220 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				186E647622D35DFF00072220 /* SDeviceUIInfo.h */,
 				186E647722D35DFF00072220 /* SDeviceID.h */,
-				186E647822D35DFF00072220 /* SSystemDefine.h */,
-				186E647922D35DFF00072220 /* SDeviceInfo.m */,
-				186E647A22D35DFF00072220 /* SKeyChain.m */,
-				186E647B22D35DFF00072220 /* SDeviceType.h */,
 				186E647C22D35DFF00072220 /* SDeviceID.m */,
-				186E647D22D35DFF00072220 /* SDeviceUIInfo.m */,
 				186E647E22D35DFF00072220 /* SDeviceInfo.h */,
+				186E647922D35DFF00072220 /* SDeviceInfo.m */,
+				186E647B22D35DFF00072220 /* SDeviceType.h */,
+				186E648122D35DFF00072220 /* SDeviceType.m */,
 				186E647F22D35DFF00072220 /* SDeviceTypeDefine.h */,
 				186E648022D35DFF00072220 /* SDeviceUIDefine.h */,
-				186E648122D35DFF00072220 /* SDeviceType.m */,
+				186E647622D35DFF00072220 /* SDeviceUIInfo.h */,
+				186E647D22D35DFF00072220 /* SDeviceUIInfo.m */,
 				186E648222D35DFF00072220 /* SKeyChain.h */,
+				186E647A22D35DFF00072220 /* SKeyChain.m */,
+				186E647822D35DFF00072220 /* SSystemDefine.h */,
 			);
 			path = System;
 			sourceTree = "<group>";

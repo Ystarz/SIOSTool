@@ -45,6 +45,10 @@
     return [SDeviceType sharedInstance];
 }
 
++(NSString*) getDeviceOriginalName{
+    return [SDeviceType sharedInstance].deviceOriginalName;
+}
+
 +(SDeviceUIInfo*) getUIInfo{
     return [SDeviceUIInfo sharedInstance];
 }

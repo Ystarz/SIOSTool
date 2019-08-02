@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(strong,nonatomic)NSString*deviceName;
 @property(assign,nonatomic)SDeviceSeries deviceSeries;
 @property(assign,nonatomic)SDeviceModel deviceModel;
+@property(strong,nonatomic)NSString*deviceOriginalName;
 
 +(instancetype)sharedInstance;
 //-(instancetype)type;

@@ -25,13 +25,19 @@
 {
     self = [super init];
     if (self) {
+        [self setDeviceOriginalName:[SDeviceType getDeviceOriginalName]];
          [self setDeviceName:[SDeviceType getDeviceVersion]];
         [self setDeviceModel:[SDeviceType getDeviceModel]];
         [self setDeviceSeries:[SDeviceType getSDeviceSeries]];
     }
     return self;
 }
-
++(NSString*)getDeviceOriginalName{
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    NSString *str = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
+    return str;
+}
 
 +(NSString *)getDeviceVersion{
     // 需要#import "sys/utsname.h"
@@ -204,6 +210,15 @@
         model = iPhoneX;
     else if ([platform isEqualToString:@"iPhone10,6"])
         model = iPhoneX;
+    else if([platform isEqualToString:@"iPhone11,2"])
+        model=iPhoneXs;
+    else if([platform isEqualToString:@"iPhone11,4"] || [platform isEqualToString:@"iPhone11,6"])
+        model=iPhoneXsMAX;
+    else if([platform isEqualToString:@"iPhone11,8"])
+        model=iPhoneXR;
+    else if([platform hasPrefix:@"iPhone"])
+        model=iPhoneUnknown;
+
     
     else if ([platform isEqualToString:@"iPod1,1"])
         model = iPodTouch1G;
@@ -215,6 +230,8 @@
         model = iPodTouch4G;
     else if ([platform isEqualToString:@"iPod5,1"])
         model = iPodTouch5Gen;
+    else if([platform hasPrefix:@"iPod"])
+        model=iPodUnknown;
     
     else if ([platform isEqualToString:@"iPad1,1"])
         model = iPad;
@@ -283,6 +300,8 @@
         model = iPadPro12_9;
     else if ([platform isEqualToString:@"iPad6,8"])
         model = iPadPro12_9;
+    else if([platform hasPrefix:@"iPad"])
+        model=iPadUnknown;
     else model= UnknownDeviceModel;
     return model;
 }
