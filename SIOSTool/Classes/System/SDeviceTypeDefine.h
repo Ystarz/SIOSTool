@@ -93,7 +93,9 @@ typedef NS_ENUM(NSInteger,SDeviceModel) {
     iPodTouch2G,
     iPodTouch3G,
     iPodTouch4G,
-    iPodTouch5Gen,
+    iPodTouch5G,
+    iPodTouch6G,
+    iPodTouch7G,
     iPodUnknown,
     
     iPhone3G,
@@ -156,10 +158,17 @@ typedef NS_ENUM(NSInteger,SDeviceModel) {
     iPadMini4WiFi,
     iPadMini4LTE,
     iPadAir2,
-    iPadPro9_7,
-    iPadPro12_9,
+    iPadPro_9_7,
+    iPadPro_12_9,
     iPadUnknown,
-    
+    iPad5,
+    iPadPro2_12_9,
+    iPadPro_10_5,
+    iPad6,
+    iPadPro_11,
+    iPadPro3_12_9,
+    iPadMini5,
+    iPadAir3,
     UnknownDeviceModel
 };
 #endif /* SDeviceTypeDefine_h */
