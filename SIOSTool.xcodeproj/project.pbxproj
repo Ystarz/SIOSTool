@@ -194,12 +194,12 @@
 		186E646622D35DFF00072220 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				186E646722D35DFF00072220 /* UITextView+Placeholder.m */,
+				186E646C22D35DFF00072220 /* UIImageView+Cache.h */,
 				186E646822D35DFF00072220 /* UIImageView+Cache.m */,
+				186E646B22D35DFF00072220 /* UIImageView+Round.h */,
 				186E646922D35DFF00072220 /* UIImageView+Round.m */,
 				186E646A22D35DFF00072220 /* UITextView+Placeholder.h */,
-				186E646B22D35DFF00072220 /* UIImageView+Round.h */,
-				186E646C22D35DFF00072220 /* UIImageView+Cache.h */,
+				186E646722D35DFF00072220 /* UITextView+Placeholder.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -216,10 +216,10 @@
 		186E647022D35DFF00072220 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
-				186E647122D35DFF00072220 /* UIDevice+Resolutions.m */,
 				186E647222D35DFF00072220 /* UIDevice+Orientation.h */,
-				186E647322D35DFF00072220 /* UIDevice+Resolutions.h */,
 				186E647422D35DFF00072220 /* UIDevice+Orientation.m */,
+				186E647322D35DFF00072220 /* UIDevice+Resolutions.h */,
+				186E647122D35DFF00072220 /* UIDevice+Resolutions.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
