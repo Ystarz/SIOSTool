@@ -26,6 +26,8 @@
 #import "UIImageView+Cache.h"
 #import "UIImageView+Round.h"
 #import "UITextView+Placeholder.h"
+#import "UIImageTool.h"
+#import "UIView+SSystem.h"
 
 //UIViewController
 #import "UIViewController+SExtension.h"

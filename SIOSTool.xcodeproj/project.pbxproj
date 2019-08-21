@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180AB214230D365A00CA4077 /* UIImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB210230D365900CA4077 /* UIImageTool.m */; };
+		180AB215230D365A00CA4077 /* UIImageTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 180AB211230D365A00CA4077 /* UIImageTool.h */; };
+		180AB216230D365A00CA4077 /* UIView+SSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB212230D365A00CA4077 /* UIView+SSystem.m */; };
+		180AB217230D365A00CA4077 /* UIView+SSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 180AB213230D365A00CA4077 /* UIView+SSystem.h */; };
 		18687E5122B9DAF000371340 /* SIOSTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18687E4722B9DAF000371340 /* SIOSTool.framework */; };
 		18687E5622B9DAF000371340 /* SIOSToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18687E5522B9DAF000371340 /* SIOSToolTests.m */; };
 		18687E8622B9DDD200371340 /* SIOSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18687E6C22B9DDD200371340 /* SIOSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180AB210230D365900CA4077 /* UIImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageTool.m; sourceTree = "<group>"; };
+		180AB211230D365A00CA4077 /* UIImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageTool.h; sourceTree = "<group>"; };
+		180AB212230D365A00CA4077 /* UIView+SSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSystem.m"; sourceTree = "<group>"; };
+		180AB213230D365A00CA4077 /* UIView+SSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SSystem.h"; sourceTree = "<group>"; };
 		18687E4722B9DAF000371340 /* SIOSTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIOSTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18687E4B22B9DAF000371340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18687E5022B9DAF000371340 /* SIOSToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIOSToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +202,10 @@
 		186E646622D35DFF00072220 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				180AB211230D365A00CA4077 /* UIImageTool.h */,
+				180AB210230D365900CA4077 /* UIImageTool.m */,
+				180AB213230D365A00CA4077 /* UIView+SSystem.h */,
+				180AB212230D365A00CA4077 /* UIView+SSystem.m */,
 				186E646C22D35DFF00072220 /* UIImageView+Cache.h */,
 				186E646822D35DFF00072220 /* UIImageView+Cache.m */,
 				186E646B22D35DFF00072220 /* UIImageView+Round.h */,
@@ -253,10 +265,12 @@
 			files = (
 				186E649122D35DFF00072220 /* UIDevice+Orientation.h in Headers */,
 				186E649422D35DFF00072220 /* SDeviceUIInfo.h in Headers */,
+				180AB217230D365A00CA4077 /* UIView+SSystem.h in Headers */,
 				186E648622D35DFF00072220 /* NSObject+ChatAdd.h in Headers */,
 				186E648D22D35DFF00072220 /* UIImageView+Cache.h in Headers */,
 				186E649622D35DFF00072220 /* SSystemDefine.h in Headers */,
 				186E648322D35DFF00072220 /* UIImage+Addtion.h in Headers */,
+				180AB215230D365A00CA4077 /* UIImageTool.h in Headers */,
 				186E649522D35DFF00072220 /* SDeviceID.h in Headers */,
 				186E648F22D35DFF00072220 /* UIViewController+SExtension.h in Headers */,
 				186E649C22D35DFF00072220 /* SDeviceInfo.h in Headers */,
@@ -369,6 +383,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				186E649022D35DFF00072220 /* UIDevice+Resolutions.m in Sources */,
+				180AB214230D365A00CA4077 /* UIImageTool.m in Sources */,
+				180AB216230D365A00CA4077 /* UIView+SSystem.m in Sources */,
 				186E648522D35DFF00072220 /* UIImage+Addtion.m in Sources */,
 				186E648922D35DFF00072220 /* UIImageView+Cache.m in Sources */,
 				186E648E22D35DFF00072220 /* UIViewController+SExtension.m in Sources */,
