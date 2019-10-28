@@ -15,6 +15,7 @@
 #import "SDeviceTypeDefine.h"
 #import "SDeviceUIDefine.h"
 #import "SDeviceUIInfo.h"
+#import "SKeyChain.h"
 
 //UI
 #import "SUIDefine.h"

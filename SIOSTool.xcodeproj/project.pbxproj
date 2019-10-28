@@ -11,6 +11,8 @@
 		180AB215230D365A00CA4077 /* UIImageTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 180AB211230D365A00CA4077 /* UIImageTool.h */; };
 		180AB216230D365A00CA4077 /* UIView+SSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AB212230D365A00CA4077 /* UIView+SSystem.m */; };
 		180AB217230D365A00CA4077 /* UIView+SSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 180AB213230D365A00CA4077 /* UIView+SSystem.h */; };
+		181A3CEF235DDCDF002F238A /* UIColor+SSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 181A3CED235DDCDF002F238A /* UIColor+SSExtension.h */; };
+		181A3CF0235DDCDF002F238A /* UIColor+SSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A3CEE235DDCDF002F238A /* UIColor+SSExtension.m */; };
 		18687E5122B9DAF000371340 /* SIOSTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18687E4722B9DAF000371340 /* SIOSTool.framework */; };
 		18687E5622B9DAF000371340 /* SIOSToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18687E5522B9DAF000371340 /* SIOSToolTests.m */; };
 		18687E8622B9DDD200371340 /* SIOSTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18687E6C22B9DDD200371340 /* SIOSTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +47,8 @@
 		186E649E22D35DFF00072220 /* SDeviceUIDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 186E648022D35DFF00072220 /* SDeviceUIDefine.h */; };
 		186E649F22D35DFF00072220 /* SDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E648122D35DFF00072220 /* SDeviceType.m */; };
 		186E64A022D35DFF00072220 /* SKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 186E648222D35DFF00072220 /* SKeyChain.h */; };
+		189D0E1F2366868D001B1AF7 /* UIViewController+LL_Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D0E1D2366868D001B1AF7 /* UIViewController+LL_Utils.m */; };
+		189D0E202366868D001B1AF7 /* UIViewController+LL_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 189D0E1E2366868D001B1AF7 /* UIViewController+LL_Utils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,8 @@
 		180AB211230D365A00CA4077 /* UIImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageTool.h; sourceTree = "<group>"; };
 		180AB212230D365A00CA4077 /* UIView+SSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSystem.m"; sourceTree = "<group>"; };
 		180AB213230D365A00CA4077 /* UIView+SSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SSystem.h"; sourceTree = "<group>"; };
+		181A3CED235DDCDF002F238A /* UIColor+SSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SSExtension.h"; sourceTree = "<group>"; };
+		181A3CEE235DDCDF002F238A /* UIColor+SSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SSExtension.m"; sourceTree = "<group>"; };
 		18687E4722B9DAF000371340 /* SIOSTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIOSTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18687E4B22B9DAF000371340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18687E5022B9DAF000371340 /* SIOSToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIOSToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +105,8 @@
 		186E648022D35DFF00072220 /* SDeviceUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDeviceUIDefine.h; sourceTree = "<group>"; };
 		186E648122D35DFF00072220 /* SDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDeviceType.m; sourceTree = "<group>"; };
 		186E648222D35DFF00072220 /* SKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKeyChain.h; sourceTree = "<group>"; };
+		189D0E1D2366868D001B1AF7 /* UIViewController+LL_Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LL_Utils.m"; sourceTree = "<group>"; };
+		189D0E1E2366868D001B1AF7 /* UIViewController+LL_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LL_Utils.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +191,10 @@
 		186E645F22D35DFF00072220 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				186E646022D35DFF00072220 /* UIImage+Addtion.h */,
 				186E646122D35DFF00072220 /* SUIDefine.h */,
+				181A3CED235DDCDF002F238A /* UIColor+SSExtension.h */,
+				181A3CEE235DDCDF002F238A /* UIColor+SSExtension.m */,
+				186E646022D35DFF00072220 /* UIImage+Addtion.h */,
 				186E646222D35DFF00072220 /* UIImage+Addtion.m */,
 			);
 			path = UI;
@@ -219,6 +229,8 @@
 		186E646D22D35DFF00072220 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				189D0E1E2366868D001B1AF7 /* UIViewController+LL_Utils.h */,
+				189D0E1D2366868D001B1AF7 /* UIViewController+LL_Utils.m */,
 				186E646E22D35DFF00072220 /* UIViewController+SExtension.m */,
 				186E646F22D35DFF00072220 /* UIViewController+SExtension.h */,
 			);
@@ -266,6 +278,7 @@
 				186E649122D35DFF00072220 /* UIDevice+Orientation.h in Headers */,
 				186E649422D35DFF00072220 /* SDeviceUIInfo.h in Headers */,
 				180AB217230D365A00CA4077 /* UIView+SSystem.h in Headers */,
+				189D0E202366868D001B1AF7 /* UIViewController+LL_Utils.h in Headers */,
 				186E648622D35DFF00072220 /* NSObject+ChatAdd.h in Headers */,
 				186E648D22D35DFF00072220 /* UIImageView+Cache.h in Headers */,
 				186E649622D35DFF00072220 /* SSystemDefine.h in Headers */,
@@ -273,6 +286,7 @@
 				180AB215230D365A00CA4077 /* UIImageTool.h in Headers */,
 				186E649522D35DFF00072220 /* SDeviceID.h in Headers */,
 				186E648F22D35DFF00072220 /* UIViewController+SExtension.h in Headers */,
+				181A3CEF235DDCDF002F238A /* UIColor+SSExtension.h in Headers */,
 				186E649C22D35DFF00072220 /* SDeviceInfo.h in Headers */,
 				186E649D22D35DFF00072220 /* SDeviceTypeDefine.h in Headers */,
 				186E649922D35DFF00072220 /* SDeviceType.h in Headers */,
@@ -386,6 +400,7 @@
 				180AB214230D365A00CA4077 /* UIImageTool.m in Sources */,
 				180AB216230D365A00CA4077 /* UIView+SSystem.m in Sources */,
 				186E648522D35DFF00072220 /* UIImage+Addtion.m in Sources */,
+				189D0E1F2366868D001B1AF7 /* UIViewController+LL_Utils.m in Sources */,
 				186E648922D35DFF00072220 /* UIImageView+Cache.m in Sources */,
 				186E648E22D35DFF00072220 /* UIViewController+SExtension.m in Sources */,
 				186E649A22D35DFF00072220 /* SDeviceID.m in Sources */,
@@ -393,6 +408,7 @@
 				186E649822D35DFF00072220 /* SKeyChain.m in Sources */,
 				186E648722D35DFF00072220 /* NSObject+ChatAdd.m in Sources */,
 				186E649322D35DFF00072220 /* UIDevice+Orientation.m in Sources */,
+				181A3CF0235DDCDF002F238A /* UIColor+SSExtension.m in Sources */,
 				186E648A22D35DFF00072220 /* UIImageView+Round.m in Sources */,
 				186E649722D35DFF00072220 /* SDeviceInfo.m in Sources */,
 				186E649B22D35DFF00072220 /* SDeviceUIInfo.m in Sources */,
